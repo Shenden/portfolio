@@ -451,6 +451,7 @@ template {
 
 body{
   background: lavender;
+  font-family: Tahoma;
 }
 .box{
   width: 100%;
