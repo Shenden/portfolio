@@ -454,12 +454,18 @@ body{
   font-family: Tahoma;
 }
 .box{
-  width: 100%;
-  width: calc(100% - 40px);
-  margin: 0 auto;
+  width: 50%;
+  width: calc(50% - 40px);
+  margin: 10% auto;
   background: #fff;
   padding: 20px;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 h2{
+  text-align: center;
   color: coral;
 }
