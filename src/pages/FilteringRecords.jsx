@@ -43,6 +43,7 @@ export const FilteringRecords = ({ handleSort, handleFilter }) => {
             <option value="electronic">Electronic</option>
             <option value="ska">Ska</option>
             <option value="rock">Rock</option>
+            <option value="soundtrack">Soundtrack</option>
             <option></option>
           </select>
         </motion.div>

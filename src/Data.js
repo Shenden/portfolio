@@ -60,16 +60,16 @@ export const membersData = [
     id: 4,
   },
   {
-    name: "FunkDoobiest",
+    name: "Ludwig Göransson",
     album: [
       {
         cover: "album cover",
-        title: "Which Doobie U B?",
+        title: "Tenet",
         albumID: 5,
       },
     ],
-    url: "https://prysmtalentagency.com/wp-content/uploads/2025/04/Funkdoobiest-1080x630.webp",
-    genre: "hiphop",
+    url: "https://filmsymphony.es/wp-content/uploads/2022/10/@VanityFair.jpg",
+    genre: "soundtrack",
     id: 5,
   },
   {
@@ -132,5 +132,176 @@ export const membersData = [
     url: "https://i.ytimg.com/vi/EcGJLGEywd4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCGcwfMwF4usokWMSwaQ5730zI-dA",
     genre: "reggae",
     id: 9,
+  },
+  {
+    name: "Hans Zimmer",
+    album: [
+      {
+        cover: "",
+        title: "Interstellar",
+        albumID: 10,
+      },
+    ],
+    url: "https://timeandleisure.co.uk/wp-content/uploads/2023/06/Hans-Zimmer-review.jpg",
+    genre: "soundtrack",
+    id: 10,
+  },
+  {
+    name: "Ranking Joe",
+    album: [
+      {
+        cover: "",
+        title: "Weak Heart Fade Away",
+        albumID: 11,
+      },
+    ],
+    url: "https://mariajackson27magazine.com/wp-content/uploads/2025/08/ranking-joe-maria-jackson-27.jpg",
+    genre: "reggae",
+    id: 11,
+  },
+  {
+    name: "Pusha T",
+    album: [
+      {
+        cover: "",
+        title: "Daytona",
+        albumID: 12,
+      },
+    ],
+    url: "https://media.pitchfork.com/photos/6277d88f458513ff51e94612/16:9/w_1776,h_999,c_limit/Pusha%20T.jpg",
+    genre: "hiphop",
+    id: 12,
+  },
+
+  {
+    name: "Ice Cube",
+    album: [
+      {
+        cover: "",
+        title: "Check Yo Self(12)",
+        albumID: 13,
+      },
+    ],
+    url: "https://www.dallasobserver.com/wp-content/uploads/sites/3/2025/09/ice-cube-teaser-image-jeremiah-lazo.jpeg",
+    genre: "hiphop",
+    id: 13,
+  },
+  {
+    name: "South Central Cartel",
+    album: [
+      {
+        cover: "",
+        title: "Gang Stories(12)",
+        albumID: 14,
+      },
+    ],
+    url: "https://upload.wikimedia.org/wikipedia/commons/a/ac/South_Central_Cartel_-_Petit_Bain%2C_Paris_%2814429051292%29.jpg",
+    genre: "hiphop",
+    id: 14,
+  },
+  {
+    name: "Freddie Gibbs & Madlib",
+    album: [
+      {
+        cover: "",
+        title: "Bandana",
+        albumID: 15,
+      },
+    ],
+    url: "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-14769-gibbs-1800-1395337192.jpg?w=1581&h=1054&crop=1",
+    genre: "hiphop",
+    id: 15,
+  },
+  {
+    name: "Petrichor",
+    album: [
+      {
+        cover: "",
+        title: "Enfant Sauvage",
+        albumID: 16,
+      },
+    ],
+    url: "https://imgproxy.ra.co/_/quality:66/aHR0cHM6Ly9zdGF0aWMucmEuY28vaW1hZ2VzL3Byb2ZpbGVzL2xnL3BldHJpY2hvci5qcGc_ZGF0ZVVwZGF0ZWQ9MTM3NDc5MjkyMTAwMA==",
+    genre: "electronic",
+    id: 16,
+  },
+
+  {
+    name: "Madlib",
+    album: [
+      {
+        cover: "",
+        title: "Beat Konducta Vol.3",
+        albumID: 17,
+      },
+    ],
+    url: "https://image.okayplayer.com/437429.webp?imageId=437429&width=960&height=642&format=jpg",
+    genre: "hiphop",
+    id: 17,
+  },
+  {
+    name: "2Pac",
+    album: [
+      {
+        cover: "",
+        title: "Thuglife",
+        albumID: 18,
+      },
+    ],
+    url: "https://townsquare.media/site/812/files/2016/06/biggie-tupac-shakur-redman.jpg?w=780&q=75",
+    genre: "hiphop",
+    id: 18,
+  },
+  {
+    name: "Prince Jammy",
+    album: [
+      {
+        cover: "",
+        title: "Destroys The Invaders",
+        albumID: 19,
+      },
+    ],
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy4cmMxkYlKW7hrUtlIveevkggGOckY5lasg&s",
+    genre: "reggae",
+    id: 19,
+  },
+  {
+    name: "Desmond Dekker",
+    album: [
+      {
+        cover: "",
+        title: "Israelites",
+        albumID: 20,
+      },
+    ],
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIY38Xq961Dx278zkK4o40iyu5jHBE7g0G7A&s",
+    genre: "reggae",
+    id: 20,
+  },
+  {
+    name: "Jacob Miller",
+    album: [
+      {
+        cover: "",
+        title: "Mixed Up Mood",
+        albumID: 21,
+      },
+    ],
+    url: "https://greensleevesrecords.co.uk/wp-content/uploads/2024/01/Jacob-Miller.jpg",
+    genre: "reggae",
+    id: 21,
+  },
+  {
+    name: "Rico",
+    album: [
+      {
+        cover: "",
+        title: "Man From Wareika",
+        albumID: 22,
+      },
+    ],
+    url: "https://gerryco23.wordpress.com/wp-content/uploads/2015/09/rico-rodriguez-2.jpg",
+    genre: "reggae",
+    id: 22,
   },
 ];

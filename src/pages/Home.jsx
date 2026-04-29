@@ -12,6 +12,7 @@ export const Home = ({ title }) => {
         <h1>{title}</h1>
         <p>
           Hey, my name is André! Site is still a wip. In the meantime, you can
+          &nbsp;
           <Link to="/records"> checkout my vinyl collection </Link>. A small
           one, but maybe we vibe with the same vibes!
         </p>
