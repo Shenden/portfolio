@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+//@import url("reset.css");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  min-height: 100vh;
+}
+
+span {
+  display: inline-block;
+}
+
+a {
+  color: #222;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+button,
+select {
+  border-radius: 12px;
+  border: none;
+  background-color: white;
+  //border: solid 1px rgb(236, 33, 74);
+  padding: 12px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+  &:hover {
+    //background-color: rgb(236, 33, 74);
+    background-color: rgb(233, 231, 231);
+  }
+}
+.content-home {
+  margin: 12px;
+}
+
+.filter-records-menu {
+  background-color: whitesmoke;
+  position: sticky;
+  top: 0;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 12px;
+  padding: 12px 0;
+}
+
+.filter-btn-placement {
+  margin: 12px;
+}
+
+ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+li {
+  box-shadow: 2px 8px 18px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  background-color: white;
+  //border: dashed 1px silver;
+  //border-right: solid 1px rgb(133, 13, 37);
+  text-align: center;
+  padding: 12px;
+}
+
+.album-wrapper {
+  img {
+    border-radius: 12px 12px 0 0;
+    object-fit: contain;
+    max-width: 100%;
+    vertical-align: bottom; //removes whitespace
+  }
+  .artist-box {
+    border-radius: 0 0 12px 12px;
+    //box-shadow: 2px 8px 18px rgba(0, 0, 0, 0.3);
+    max-height: auto;
+    max-width: 100%;
+
+    .title-name {
+      background-color: #333;
+      font-weight: bold;
+      color: whitesmoke;
+      padding: 12px 0;
+      width: 100%;
+      border-radius: 0 0 12px 12px;
+      padding: 12px;
+      margin-bottom: 12px;
+    }
+  }
+}
+.albums {
+  font-weight: bold;
+  .album-title {
+    display: block;
+    color: inherit;
+    font-weight: normal;
+    font-size: 0.8rem;
+    padding: 2px 0;
+  }
+}
