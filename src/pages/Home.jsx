@@ -12,10 +12,9 @@ export const Home = ({ title }) => {
         <h1>{title}</h1>
         <p>
           Hey, my name is André! Site is still a wip. In the meantime, you can
-          checkout my vinyl collection. A small one, but maybe we vibe with the
-          same vibes!
+          <Link to="/records"> checkout my vinyl collection </Link>. A small
+          one, but maybe we vibe with the same vibes!
         </p>
-        {/*         <Link to="records">Check my vinyls here! </Link> */}
       </motion.div>
     </>
   );
