@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import cosmos from "../videos/cosmos.mp4";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
 export const Home = ({ title }) => {
   return (
     <>
@@ -13,10 +16,17 @@ export const Home = ({ title }) => {
           <motion.h1
             className="not-perfect"
             initial={{ y: 40 }}
-            animate={{ y: 20 }}
+            animate={{ y: 0 }}
           >
             {title}
           </motion.h1>
+          <motion.a
+            href="mailto:adanielli@hotmail.com"
+            initial={{ scale: 2.5 }}
+            animate={{ scale: [1, 1.5, 1, 1.5, 1] }}
+          >
+            <FontAwesomeIcon icon={faEnvelope} className="mail-icon" />
+          </motion.a>
         </section>
 
         <p>
@@ -30,13 +40,14 @@ export const Home = ({ title }) => {
         </p>
         <h3> My design philosophy?</h3>
         <p>
-          I believe in design being clean and clear, but not too clean. To steer
-          away from being perfect adds a playful subtle human connection and
-          evokes some warmth with the user, just like using correct colors. In
-          what ways? A fun logo, a heading that sits a bit off, etc. But most
-          important is a user-friendly ui/ux, to engage and maintain the user on
-          the right path, navigating throughout articles, registration/login
-          flows etc, with breeze.
+          I believe in design being clear and consistent, but not too
+          consistent. To steer away from being perfect, a bit of blemish can add
+          a playful subtle human connection and evokes some warmth with the
+          user, just like using specific colors. In what ways? A fun logo, a
+          heading that sits a bit off or in other appropiate and subtle ways.
+          Still, most important is a user-friendly ui/ux, to engage and maintain
+          the user on the right path, navigating throughout articles,
+          registration/login flows etc, with breeze and never getting lost.
         </p>
         <p>
           This site is still a wip. In the meantime, you can take a look at a

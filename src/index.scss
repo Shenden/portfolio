@@ -12,6 +12,7 @@ html {
 
 h1 {
   color: deeppink;
+  padding: 0;
 }
 
 body {
@@ -30,6 +31,9 @@ section {
   background-color: whitesmoke;
   position: sticky;
   top: 0;
+  display: flex;
+  gap: 8px;
+  align-items: center;
   z-index: 1000;
 
   .home-icon {
@@ -39,6 +43,10 @@ section {
     display: flex;
     gap: 122px;
     padding-bottom: 12px;
+  }
+  .mail-icon {
+    font-size: 2rem;
+    color: #333;
   }
 }
 
@@ -69,14 +77,17 @@ select {
   }
 }
 .content-home {
-  margin: 12px;
+  margin: 0 12px;
 
   .not-perfect {
-    padding-bottom: 24px;
+    padding: 12px 0;
   }
-  p {
+
+  p,
+  h3 {
     line-height: 24px;
     transform: rotate(1deg);
+    margin: 12px;
   }
 }
 
@@ -155,4 +166,13 @@ li {
 video {
   max-width: 100%;
   padding: 12px;
+}
+
+@media (max-width: 768px) {
+  section {
+    h1,
+    .mail-icon {
+      font-size: 1.3rem;
+    }
+  }
 }
