@@ -52,7 +52,6 @@ select {
   margin: 12px;
 
   .not-perfect {
-    transform: rotate(-3deg);
     padding-bottom: 24px;
   }
   p {
@@ -130,4 +129,9 @@ li {
     font-size: 0.8rem;
     padding: 2px 0;
   }
+}
+
+video {
+  max-width: 100%;
+  padding: 12px;
 }
