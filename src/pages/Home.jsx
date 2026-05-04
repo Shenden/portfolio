@@ -49,6 +49,7 @@ export const Home = ({ title }) => {
           the user on the right path, navigating throughout articles,
           registration/login flows etc, with breeze and never getting lost.
         </p>
+        <hr />
         <p>
           This site is still a wip. In the meantime, you can take a look at a
           interface concept I'm working on called &nbsp;

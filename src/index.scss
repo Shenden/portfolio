@@ -6,8 +6,9 @@
 }
 
 html {
-  background-color: whitesmoke;
+  background-color: rgb(7, 23, 37);
   font-family: "Montserrat", sans-serif;
+  color: rgb(84, 145, 199);
 }
 
 h1 {
@@ -28,12 +29,12 @@ span {
 }
 
 section {
-  background-color: whitesmoke;
+  background-color: rgb(7, 23, 37);
   position: sticky;
   top: 0;
   display: flex;
   gap: 8px;
-  margin: 0 12px;
+  margin-right: 12px;
   align-items: center;
   z-index: 1000;
 
@@ -47,7 +48,6 @@ section {
   }
   .mail-icon {
     font-size: 2rem;
-    color: #333;
   }
 }
 
@@ -55,27 +55,27 @@ a {
   color: deeppink;
   display: inline-block;
   text-decoration: none;
-  font-weight: bold;
-  &:hover {
-    text-decoration: underline;
-  }
+}
+
+hr {
+  border-color: rgb(16, 49, 78);
+  border-width: 1px;
+  margin: 24px 0px;
 }
 
 button,
 select {
-  color: #333;
   border-radius: 12px;
-  border: none;
-  background-color: white;
-  //border: solid 1px rgb(236, 33, 74);
+  color: rgb(84, 145, 199);
+  background-color: transparent;
+  border: solid 1px rgb(16, 49, 78);
   padding: 12px;
   font-weight: bold;
   outline: none;
   cursor: pointer;
   transition: all 200ms ease-in;
   &:hover {
-    //background-color: rgb(236, 33, 74);
-    background-color: rgb(233, 231, 231);
+    background-color: rgb(16, 49, 78);
   }
 }
 .content-home {
@@ -121,7 +121,7 @@ ul {
 li {
   box-shadow: 2px 8px 18px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
-  background-color: white;
+  border: solid 1px rgb(16, 49, 78);
   //border: dashed 1px silver;
   //border-right: solid 1px rgb(133, 13, 37);
   text-align: center;
@@ -143,9 +143,8 @@ li {
     max-width: 100%;
 
     .title-name {
-      background-color: #333;
-      font-weight: bold;
-      color: whitesmoke;
+      color: deeppink;
+      border: dotted 1px rgb(16, 49, 78);
       padding: 12px 0;
       width: 100%;
       border-radius: 0 0 12px 12px;

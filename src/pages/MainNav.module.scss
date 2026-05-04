@@ -1,5 +1,5 @@
 header {
-  background-color: #333;
+  background-color: rgb(7, 23, 37);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,12 +14,17 @@ header {
     }
 
     li {
+      border: solid 1px rgb(16, 49, 78);
       background-color: transparent;
       box-shadow: none;
+      transition: background 500ms ease;
 
       a {
-        color: whitesmoke;
+        color: rgb(84, 145, 199);
         transition: all 0.3s ease-in-out;
+      }
+      &:hover {
+        background-color: rgb(16, 49, 78);
       }
     }
     .navContainer {
@@ -29,9 +34,7 @@ header {
   }
 
   img {
-    position: absolute;
-    top: 40px;
-    max-width: 100px;
+    max-width: 60px;
     object-fit: contain;
     z-index: 10000;
   }
