@@ -55,7 +55,7 @@ export const Records = ({ title }) => {
       <motion.h1
         className="not-perfect"
         initial={{ y: 40, rotate: 0 }}
-        animate={{ y: 0, rotate: -3 }}
+        animate={{ y: 20, rotate: 0 }}
       >
         {title}
       </motion.h1>

@@ -23,7 +23,7 @@ export const FilteringRecords = ({ handleSort, handleFilter }) => {
         style={{
           justifyContent: isOn ? "flex-end" : "flex-start",
         }}
-        className="filter-records"
+        //className="filter-records-menu"
       >
         <motion.div
           layout

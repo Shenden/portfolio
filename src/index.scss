@@ -33,6 +33,7 @@ section {
   top: 0;
   display: flex;
   gap: 8px;
+  margin: 0 12px;
   align-items: center;
   z-index: 1000;
 
@@ -171,9 +172,11 @@ video {
 
 @media (max-width: 768px) {
   section {
-    h1,
     .mail-icon {
       font-size: 1.3rem;
     }
+  }
+  h1 {
+    font-size: 1.3rem;
   }
 }
