@@ -18,12 +18,12 @@ export const FilteringRecords = ({ handleSort, handleFilter }) => {
       <button className="filter-btn-placement" onClick={handleMotion}>
         Place filter buttons left or right(test)
       </button>
-      <motion.div
+      <motion.section
         layout
         style={{
           justifyContent: isOn ? "flex-end" : "flex-start",
         }}
-        className="filter-records-menu"
+        className="filter-records"
       >
         <motion.div
           layout
@@ -53,7 +53,7 @@ export const FilteringRecords = ({ handleSort, handleFilter }) => {
             <option></option>
           </select>
         </motion.div>
-      </motion.div>
+      </motion.section>
     </>
   );
 };

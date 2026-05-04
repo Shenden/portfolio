@@ -27,11 +27,19 @@ span {
 }
 
 section {
-  padding-bottom: 1px;
   background-color: whitesmoke;
   position: sticky;
   top: 0;
   z-index: 1000;
+
+  .home-icon {
+    margin: 12px;
+  }
+  &.filter-records {
+    display: flex;
+    gap: 122px;
+    padding-bottom: 12px;
+  }
 }
 
 a {
@@ -82,9 +90,6 @@ select {
   justify-content: flex-end;
   margin: 12px;
   padding: 12px 0;
-  .home-icon {
-    margin-right: 8px;
-  }
 }
 
 .filter-btn-placement {
