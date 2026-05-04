@@ -1,5 +1,8 @@
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHouse } from "@fortawesome/free-solid-svg-icons";
 
 export const FilteringRecords = ({ handleSort, handleFilter }) => {
   //get select values through ref
@@ -30,6 +33,9 @@ export const FilteringRecords = ({ handleSort, handleFilter }) => {
             bounce: 0.4,
           }}
         >
+          <Link to="/portfolio" className="home-icon">
+            <FontAwesomeIcon icon={faHouse} />
+          </Link>
           <button onClick={handleSort}>Sort alphabetically</button>
           <label htmlFor="filter-records"> </label>
           <select
