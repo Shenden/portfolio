@@ -5,8 +5,8 @@ import { FilteringRecords } from "./FilteringRecords";
 import { NoRecords } from "./NoRecords";
 import { membersData } from "../Data";
 
-const container = {
-  backgroundColor: "red",
+const VinylContainer = {
+  padding: "0 12px",
 };
 
 export const Records = ({ title }) => {
@@ -50,7 +50,7 @@ export const Records = ({ title }) => {
     <motion.div
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
-      //style={{ ...container }}
+      style={{ ...VinylContainer }}
     >
       <motion.h1
         className="not-perfect"

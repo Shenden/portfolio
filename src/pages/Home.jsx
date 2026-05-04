@@ -9,17 +9,24 @@ export const Home = ({ title }) => {
         animate={{ opacity: 1, y: 0, rotate: 0.5 }}
         className="content-home"
       >
-        <motion.h1
-          className="not-perfect"
-          initial={{ y: 40 }}
-          animate={{ y: 20 }}
-        >
-          {title}
-        </motion.h1>
+        <section>
+          <motion.h1
+            className="not-perfect"
+            initial={{ y: 40 }}
+            animate={{ y: 20 }}
+          >
+            {title}
+          </motion.h1>
+        </section>
+
+        <p>
+          Ready to up my challenge in either a UI or React development position.
+        </p>
+        <h3> So who am I?</h3>
         <p>
           Love all things design & tech. Years of experience working with
-          CSS/SCSS/Styled Components, some Figma and on a somewhat intermediate
-          level of React.
+          CSS/SCSS/Styled Components, some Figma and at a intermediate level of
+          React.
         </p>
         <h3> My design philosophy?</h3>
         <p>
@@ -46,9 +53,6 @@ export const Home = ({ title }) => {
           Or &nbsp;
           <Link to="/records"> checkout my vinyl collection </Link>. A small
           one, but maybe we vibe with the same vibes!
-        </p>
-        <p>
-          Ready to up my challenge in either a UI or React development position.
         </p>
       </motion.div>
     </>

@@ -10,6 +10,10 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 
+h1 {
+  color: deeppink;
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -20,6 +24,14 @@ body {
 
 span {
   display: inline-block;
+}
+
+section {
+  padding-bottom: 1px;
+  background-color: whitesmoke;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 a {
@@ -55,6 +67,7 @@ select {
     padding-bottom: 24px;
   }
   p {
+    line-height: 24px;
     transform: rotate(1deg);
   }
 }
