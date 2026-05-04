@@ -9,7 +9,7 @@ const container = {
   backgroundColor: "red",
 };
 
-export const Records = () => {
+export const Records = ({ title }) => {
   const [album, setAlbum] = useState(membersData);
 
   /*  setAlbum((prev) =>
@@ -52,6 +52,13 @@ export const Records = () => {
       animate={{ opacity: 1, y: 0 }}
       //style={{ ...container }}
     >
+      <motion.h1
+        className="not-perfect"
+        initial={{ y: 40, rotate: 0 }}
+        animate={{ y: 0, rotate: -3 }}
+      >
+        {title}
+      </motion.h1>
       <FilteringRecords
         handleSort={handleSort}
         handleFilter={handleFilterGenre}

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import classes from "./MainNav.module.scss";
 import { useState } from "react";
+import profile from "../images/profile.png";
 
 export const MainNav = () => {
   const [toggle, setToggle] = useState(false);
@@ -10,7 +11,9 @@ export const MainNav = () => {
   }
   return (
     <header className={classes.header}>
-      <div className="logo">Logo in here</div>
+      <div className="logo">
+        <img src={profile} />
+      </div>
       <nav>
         <div className={classes.navContainer}>
           <button
@@ -26,7 +29,12 @@ export const MainNav = () => {
                 <Link to="portfolio">Home</Link>
               </li>
               <li>
-                <Link to="records">Vinyl Collection</Link>
+                <Link to="records">Vinyls</Link>
+              </li>
+              <li>
+                <a href="https://shenden.github.io/terminal/" target="_blank">
+                  Cosmos
+                </a>
               </li>
             </ul>
           </div>

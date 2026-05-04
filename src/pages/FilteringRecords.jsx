@@ -13,7 +13,7 @@ export const FilteringRecords = ({ handleSort, handleFilter }) => {
   return (
     <>
       <button className="filter-btn-placement" onClick={handleMotion}>
-        Filtering buttons left or right(test)
+        Place filter buttons left or right(test)
       </button>
       <motion.div
         layout
@@ -37,7 +37,7 @@ export const FilteringRecords = ({ handleSort, handleFilter }) => {
             ref={selectRef}
             onChange={() => handleFilter(selectRef.current.value)}
           >
-            <option value="">Sort all</option>
+            <option value="">Sort: all</option>
             <option value="hiphop">Hiphop</option>
             <option value="reggae">Reggae</option>
             <option value="electronic">Electronic</option>
