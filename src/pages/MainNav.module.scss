@@ -38,6 +38,9 @@ header {
     object-fit: contain;
     z-index: 10000;
   }
+  &.light {
+    background-color: red;
+  }
 }
 
 .hamburger {

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import classes from "./MainNav.module.scss";
-import { useState } from "react";
+import { useContext, useState } from "react";
+//import { ThemeContext } from "./ThemeContext";
 import profile from "../images/profile.png";
 
 export const MainNav = () => {
@@ -9,8 +10,11 @@ export const MainNav = () => {
   function handleToggle() {
     setToggle((prev) => !prev);
   }
+
+  //const themeCtx = useContext(ThemeContext);
   return (
-    <header className={classes.header}>
+    <header id="test" className={classes.header}>
+      {/*  <button onClick={themeCtx.handleTheme}>toggle {themeCtx.theme}</button> */}
       <div className="logo">
         <img src={profile} />
       </div>
