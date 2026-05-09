@@ -81,7 +81,7 @@ export const Records = ({ title }) => {
                   <span>Albums</span>
                   {artist.album.map((album) => (
                     <span
-                      key={album.albumID}
+                      key={album.name}
                       //onMouseEnter={() => handleAlbumCover(album.cover)}
                       onClick={() => handleTest(album.title)}
                       className="album-title"
