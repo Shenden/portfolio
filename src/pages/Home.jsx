@@ -41,21 +41,24 @@ export const Home = ({ title }) => {
         <h3> My design philosophy?</h3>
         <p>
           I believe in design being clear and consistent, but not too
-          consistent. To steer away from being perfect, a bit of blemish can add
-          a playful subtle human connection and evokes some warmth with the
-          user, just like using specific colors. In what ways? A fun logo, a
-          heading that sits a bit off or in other appropiate and subtle ways.
-          Still, most important is a user-friendly ui/ux, to engage and maintain
-          the user on the right path, navigating throughout articles,
-          registration/login flows etc, with breeze and never getting lost.
+          consistent. Steering away from being perfect and adding a bit of
+          blemish can add a playful subtle human connection and evoke some
+          warmth with the user, just like specific colors. A fun logo, a heading
+          that sits a bit off or in other appropiate and subtle ways, as long as
+          there's room and fits a company/brand profile. But, the most important
+          end-goal is to have a user-friendly ui/ux, to engage and maintain the
+          user on the right path, navigating throughout articles, registration
+          and login flows with breeze and never getting lost.
         </p>
         <hr />
         <p>
           This site is still a wip. In the meantime, you can take a look at a
-          interface concept I'm working on called &nbsp;
-          <a href="https://shenden.github.io/terminal/" target="_blank">
-            Cosmos
-          </a>
+          interface concept I'm working on:
+          <h1>
+            <a href="https://shenden.github.io/terminal/" target="_blank">
+              Cosmos
+            </a>
+          </h1>
           (opens up in external window)
           <video autoPlay muted loop playsInline>
             <source src={cosmos} type="video/mp4" />
@@ -63,8 +66,11 @@ export const Home = ({ title }) => {
         </p>
         <p>
           Or &nbsp;
-          <Link to="/records"> checkout my vinyl collection </Link>. A small
-          one, but maybe we vibe with the same vibes!
+          <Link to="/records">
+            {" "}
+            <h1>checkout my vinyl collection </h1>
+          </Link>
+          . A small one, but maybe we vibe with the same vibes!
         </p>
       </motion.div>
     </>
