@@ -28,7 +28,6 @@ export const Home = ({ title }) => {
             <FontAwesomeIcon icon={faEnvelope} className="mail-icon" />
           </motion.a>
         </section>
-
         <p>
           Ready to up my challenge in either a UI or React development position.
         </p>
@@ -54,24 +53,20 @@ export const Home = ({ title }) => {
         <p>
           This site is still a wip. In the meantime, you can take a look at a
           interface concept I'm working on:
-          <h1>
-            <a href="https://shenden.github.io/terminal/" target="_blank">
-              Cosmos
-            </a>
-          </h1>
-          (opens up in external window)
-          <video autoPlay muted loop playsInline>
-            <source src={cosmos} type="video/mp4" />
-          </video>
         </p>
-        <p>
-          Or &nbsp;
-          <Link to="/records">
-            {" "}
-            <h1>checkout my vinyl collection </h1>
-          </Link>
-          . A small one, but maybe we vibe with the same vibes!
-        </p>
+        <h1>
+          <a href="https://shenden.github.io/terminal/" target="_blank">
+            Cosmos!
+          </a>
+        </h1>
+        (opens up in external window)
+        <video autoPlay muted loop playsInline>
+          <source src={cosmos} type="video/mp4" />
+        </video>
+        <Link to="/records">
+          <h1>Or checkout my vinyl collection!</h1>
+        </Link>
+        <p> a small one, but maybe we vibe with the same vibes!</p>
       </motion.div>
     </>
   );

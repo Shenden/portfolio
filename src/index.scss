@@ -22,6 +22,7 @@ header.dark {
 h1 {
   color: deeppink;
   padding: 0;
+  margin: 0 12px;
 }
 
 body {
@@ -47,6 +48,7 @@ section {
   z-index: 1000;
 
   .home-icon {
+    font-size: 2rem;
     margin: 12px;
   }
   &.filter-records {
@@ -113,8 +115,12 @@ select {
   padding: 12px 0;
 }
 
+.filter-buttons {
+  display: flex;
+  align-items: center;
+}
 .filter-btn-placement {
-  margin: 12px;
+  margin: 36px 0;
 }
 
 ul {

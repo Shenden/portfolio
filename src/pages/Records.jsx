@@ -33,10 +33,6 @@ export const Records = ({ title }) => {
     if (genre) {
       setAlbum((prev) => prev.filter((item) => item.genre === genre));
     }
-
-    if (genre === "") {
-      return <h1>hello</h1>;
-    }
   }
 
   function handleTest(albumTitle) {

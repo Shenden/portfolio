@@ -16,7 +16,7 @@ export const FilteringRecords = ({ handleSort, handleFilter }) => {
   return (
     <>
       <button className="filter-btn-placement" onClick={handleMotion}>
-        Place filter buttons left or right(test)
+        Place filter buttons left or right(to be removed)
       </button>
       <motion.section
         layout
@@ -32,6 +32,7 @@ export const FilteringRecords = ({ handleSort, handleFilter }) => {
             visualDuration: 0.3,
             bounce: 0.4,
           }}
+          className="filter-buttons"
         >
           <Link to="/portfolio" className="home-icon">
             <FontAwesomeIcon icon={faHouse} />
