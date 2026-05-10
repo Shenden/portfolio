@@ -3,14 +3,14 @@ import { useState } from "react";
 //import { Link } from "react-router-dom";
 import { FilteringRecords } from "./FilteringRecords";
 import { NoRecords } from "./NoRecords";
-import { membersData } from "../Data";
+import { vinylData } from "../Data";
 
 const VinylContainer = {
   padding: "0 12px",
 };
 
 export const Records = ({ title }) => {
-  const [album, setAlbum] = useState(membersData);
+  const [album, setAlbum] = useState(vinylData);
 
   /*  setAlbum((prev) =>
       [...prev].sort((a, b) => {
@@ -28,10 +28,10 @@ export const Records = ({ title }) => {
   }
 
   //Select filtering function.
-  function handleFilterGenre(genre) {
-    setAlbum(membersData);
-    if (genre) {
-      setAlbum((prev) => prev.filter((item) => item.genre === genre));
+  function handleFilterGenre(selectedGenre) {
+    setAlbum(vinylData);
+    if (selectedGenre) {
+      setAlbum((prev) => prev.filter((item) => item.genre === selectedGenre));
     }
   }
 

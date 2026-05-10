@@ -1,4 +1,4 @@
-export const membersData = [
+export const vinylData = [
   {
     name: "Wu Tang Clan",
     album: [
