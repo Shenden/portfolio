@@ -34,16 +34,16 @@ export const Home = ({ title }) => {
         <h3> So who am I?</h3>
         <p>
           Love all things design & tech. Years of experience working with
-          CSS/SCSS/Styled Components, Figma and at a intermediate level of
-          React.
+          CSS/SCSS/Styled Components, Figma and at a somewhat intermediate level
+          of React/State Management/Building custom components.
         </p>
         <h3> My design philosophy?</h3>
         <p>
           I believe in design being clear and consistent, but not too
           consistent. Steering away from being perfect and adding a bit of
           blemish can add a playful subtle human connection and evoke some
-          warmth with the user, just like specific colors. A fun logo, a heading
-          that sits a bit off or in other appropiate and subtle ways, as long as
+          warmth with the user, just like colors. A fun logo, a heading that
+          sits a bit off or in other appropiate and subtle ways, as long as
           there's room and fits a company/brand profile. But, the most important
           end-goal is to have a user-friendly ui/ux, to engage and maintain the
           user on the right path, navigating throughout articles, registration
