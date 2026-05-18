@@ -140,6 +140,10 @@ li {
   //border-right: solid 1px rgb(133, 13, 37);
   text-align: center;
   padding: 12px;
+  transition: border-color 300ms ease-in-out;
+  &:hover {
+    border-color: rgb(45, 98, 145);
+  }
 }
 
 .album-wrapper {
