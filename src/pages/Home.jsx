@@ -35,7 +35,8 @@ export const Home = ({ title }) => {
         <p>
           Love all things design & tech. Years of experience working with
           CSS/SCSS/Styled Components, Figma and beginner/intermediate level of
-          using React/Hooks/State Management/Building custom components.
+          using React/Hooks/State Management/Building custom components,
+          understanding of CI/CD flows (GitLab, GitHub, Jenkins), Jira.
         </p>
         <h3> My design philosophy?</h3>
         <p>
