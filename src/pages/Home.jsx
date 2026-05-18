@@ -24,6 +24,7 @@ export const Home = ({ title }) => {
             href="mailto:adanielli@hotmail.com"
             initial={{ scale: 2.5 }}
             animate={{ scale: [1, 1.5, 1, 1.5, 1] }}
+            //transition={{ repeat: Infinity }}
           >
             <FontAwesomeIcon icon={faEnvelope} className="mail-icon" />
           </motion.a>
