@@ -1,8 +1,9 @@
 import { createContext, useState } from "react";
 
 export const ThemeContext = createContext({
-  theme: "light",
-  handleTheme: () => {},
+  //just placeholders
+  theme: "light", //the state
+  handleTheme: () => {}, //the function
 });
 
 export const ThemeProvider = ({ children }) => {
@@ -13,6 +14,7 @@ export const ThemeProvider = ({ children }) => {
     console.log(theme);
   }
   return (
+    //return the state and function that we can use across components
     <ThemeContext.Provider value={{ theme, handleTheme }}>
       {children}
     </ThemeContext.Provider>

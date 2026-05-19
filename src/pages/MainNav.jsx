@@ -13,6 +13,7 @@ export const MainNav = () => {
 
   //const themeCtx = useContext(ThemeContext);
   return (
+    //<header id="test" className={themeCtx.theme}>
     <header id="test" className={classes.header}>
       {/*  <button onClick={themeCtx.handleTheme}>toggle {themeCtx.theme}</button> */}
       <div className="logo">
