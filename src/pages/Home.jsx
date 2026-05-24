@@ -35,10 +35,10 @@ export const Home = ({ title }) => {
         <h3> So who am I?</h3>
         <p>
           Love all things design & tech. Years of experience working with
-          CSS/SCSS/Styled Components, Figma and beginner/intermediate level of
-          using React/Hooks/State Management/Building custom components,
-          understanding of CI/CD flows (GitLab, GitHub, Jenkins), Jira etc. I
-          would say that I know little about a lot of stuff.
+          CSS/SCSS/Styled Components and experience working with
+          React/Hooks/State Management/Building custom components, working with
+          Figma, understanding of CI/CD flows (GitLab, GitHub, Jenkins), Jira
+          etc. One could say that I know little about a lot of stuff.
         </p>
         <h3> My design philosophy?</h3>
         <p>
