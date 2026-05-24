@@ -38,13 +38,13 @@ export const FilteringRecords = ({ handleSort, handleFilter }) => {
             <FontAwesomeIcon icon={faHouse} />
           </Link>
           <button onClick={handleSort}>Sort alphabetically</button>
-          <label htmlFor="filter-records"> </label>
+          <label htmlFor="filter-records">Sort by: </label>
           <select
             id="filter-records"
             ref={selectRef}
             onChange={() => handleFilter(selectRef.current.value)}
           >
-            <option value="">Sort: all</option>
+            <option value="">All</option>
             <option value="hiphop">Hiphop</option>
             <option value="reggae">Reggae</option>
             <option value="electronic">Electronic</option>
