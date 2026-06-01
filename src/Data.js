@@ -274,7 +274,7 @@ export const vinylData = [
         title: "Anthem",
       },
     ],
-    url: "https://thereggaemuseum.com/wp-content/uploads/2025/06/The-Top-10-Black-Uhuru-Songs.jpg",
+    url: "https://djungelochjazz.se/cdn/shop/files/Black_Uhuru_Sinsemilla.jpg?v=1728511634",
     genre: "reggae",
     id: 23,
   },
