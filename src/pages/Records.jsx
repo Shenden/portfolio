@@ -79,6 +79,7 @@ export const Records = ({ title }) => {
 
                 <div className="albums">
                   <span>Albums</span>
+                  {/* //mapping out album array from data we already mappoing(artist). */}
                   {artist.album.map((album) => (
                     <span
                       key={album.name}
