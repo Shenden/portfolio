@@ -82,7 +82,7 @@ export const Records = ({ title }) => {
                   {/* //mapping out album array from data we already mappoing(artist). */}
                   {artist.album.map((album) => (
                     <span
-                      key={album.name}
+                      key={album.title}
                       //onMouseEnter={() => handleAlbumCover(album.cover)}
                       onClick={() => handleTest(album.title)}
                       className="album-title"
