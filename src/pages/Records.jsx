@@ -56,6 +56,7 @@ export const Records = ({ title }) => {
         {title}
       </motion.h1>
       <FilteringRecords
+        //adding the functions to props from filteringRecords compoennt
         handleSort={handleSort}
         handleFilter={handleFilterGenre}
       />
